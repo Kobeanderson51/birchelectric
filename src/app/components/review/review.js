@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import reviewImage from '../../../../public/images/Positive-Reviews-.jpeg';
+import reviewImage from '../../../../public/images/reviewImage.jpg';
 import ReviewSection from './reviewSection'; // Adjust path as necessary
 import ReviewForm from './reviewForm'; // Adjust path as necessary
 
@@ -29,7 +29,8 @@ export default function Review() {
                     className="absolute inset-0 z-0"
                     style={{
                         backgroundImage: `url(${reviewImage.src})`,
-                        backgroundSize: 'cover',
+                        backgroundSize: 'contain',
+                        backgroundRepeat: 'no-repeat',
                         backgroundPosition: 'center',
                         filter: 'brightness(50%)'
                     }}
