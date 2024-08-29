@@ -9,9 +9,9 @@ export default function Nav() {
                 <Image src={logo} alt="logo" width={100} height={100} />
             </div>
             <div className="leftnav flex space-x-8 mx-20">
-                <a href="/" className='text-gray-300 hover:text-white transition duration-300'>Home</a>
-                <a href="/about" className='text-gray-300 hover:text-white transition duration-300'>About</a>
-                <a href="/contact" className='text-gray-300 hover:text-white transition duration-300'>Contact</a>
+                <a href="#review" className='text-gray-300 hover:text-white transition duration-300'>Reviews</a>
+                <a href="#about" className='text-gray-300 hover:text-white transition duration-300'>About</a>
+                <a href="#contact" className='text-gray-300 hover:text-white transition duration-300'>Contact</a>
             </div>
         </nav>
     );
