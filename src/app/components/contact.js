@@ -8,7 +8,7 @@ export default function Contact() {
                 </p>
                 <p className="mb-8 text-gray-600 text-center">
                     You can also send us an email at <span className="font-semibold">
-                        <a href="mailto:">Birch</a>
+                        <a href="mailto:">BirchElectric</a>
                     </span>
                 </p>
             </div>
