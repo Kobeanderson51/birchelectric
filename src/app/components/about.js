@@ -38,8 +38,8 @@ export default function About() {
                         We offer a wide range of electrical services, including repairs, upgrades, and installations for both residential and commercial properties. We also specialize in energy-efficient solutions, ensuring that our services are both effective and environmentally friendly.
                     </p>
                     <ul className="text-base md:text-lg list-disc list-inside mb-4 text-center md:text-left">
-                        <li>Commercial Electrical</li>
-                        <li>Residential Electrical</li>
+                        <li className='list-none text-center font-bold'>Commercial Electrical</li>
+                        <li className='list-none text-center font-bold'>Residential Electrical</li>
                     </ul>
                 </div>
                 <div className="md:w-1/2 mb-8 md:mb-0 px-2">
