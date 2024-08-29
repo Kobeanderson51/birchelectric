@@ -12,14 +12,14 @@ export default function About() {
 
             {/* Credentials Section */}
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between mb-12">
-                <div className="md:w-1/2 mb-8 md:mb-0 px-2">
+                <div className="md:w-1/2 mb-8 md:mb-0 px-2 flex justify-center">
                     <Image 
                         src={image1} 
                         alt="Electrician working" 
-                        layout="responsive"
+                        layout="fixed"
                         width={600} 
                         height={400} 
-                        className="rounded-lg shadow-xl"
+                        className="rounded-lg shadow-xl "
                     />
                 </div>
                 <div className="md:w-1/2 text-gray-800 px-2 md:px-4">
@@ -42,11 +42,11 @@ export default function About() {
                         <li className='list-none text-center font-bold'>Residential Electrical</li>
                     </ul>
                 </div>
-                <div className="md:w-1/2 mb-8 md:mb-0 px-2">
+                <div className="md:w-1/2 mb-8 md:mb-0 px-2 flex justify-center">
                     <Image 
                         src={image2} 
                         alt="Electrical services" 
-                        layout="responsive"
+                        layout="fixed"
                         width={600} 
                         height={400} 
                         className="rounded-lg shadow-xl"
@@ -56,11 +56,11 @@ export default function About() {
 
             {/* Approach Section */}
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between px-2">
-                <div className="md:w-1/2 mb-8 md:mb-0 px-2">
+                <div className="md:w-1/2 mb-8 md:mb-0 px-2 flex justify-center">
                     <Image 
                         src={image3} 
                         alt="Customer-focused approach" 
-                        layout="responsive"
+                        layout="fixed"
                         width={600} 
                         height={400} 
                         className="rounded-lg shadow-xl"
