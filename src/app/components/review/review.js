@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import reviewImage from '../../../../public/images/reviewImage.jpg';
 import ReviewSection from './reviewSection'; // Adjust path as necessary
-import ReviewForm from './reviewForm'; // Adjust path as necessary
 
 export default function Review() {
     const [reviews, setReviews] = useState([
@@ -26,14 +25,7 @@ export default function Review() {
         <>
             <div className="relative bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
                 <div 
-                    className="absolute inset-0 z-0"
-                    style={{
-                        backgroundImage: `url(${reviewImage.src})`,
-                        backgroundSize: 'contain',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundPosition: 'center',
-                        filter: 'brightness(50%)'
-                    }}
+                    className="absolute inset-0 z-0 bg-black bg-opacity-50"
                 ></div>
                 
                 {/* Overlay for Text */}
@@ -49,9 +41,6 @@ export default function Review() {
 
             {/* Review Section */}
             <ReviewSection reviews={reviews} />
-
-            {/* Review Form */}
-            <ReviewForm onSubmit={handleAddReview} />
-        </>
+            </>
     );
 }
