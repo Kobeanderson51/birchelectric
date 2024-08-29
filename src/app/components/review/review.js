@@ -43,11 +43,6 @@ export default function Review() {
                     <p className="text-lg text-gray-300">
                         Hear from our satisfied customers about their experiences with our services. We take pride in providing top-notch service and ensuring every client is happy with the results.
                     </p>
-                    <div className="mt-8 flex justify-center">
-                        <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition duration-300">
-                            Read Reviews
-                        </button>
-                    </div>
                 </div>
             </div>
 
