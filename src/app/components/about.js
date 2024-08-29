@@ -23,7 +23,7 @@ export default function About() {
                     />
                 </div>
                 <div className="md:w-1/2 text-gray-800 px-2 md:px-4">
-                    <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-center md:text-left">Our Credentials</h3>
+                    <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-center md:text-center">Our Credentials</h3>
                     <p className="text-base md:text-lg leading-relaxed mb-4 text-center md:text-left">
                         Our team of electricians is licensed in Utah and services areas of Carbon/Emery County and Washington County, Utah, both in residential and commercial electrical work. Our professionals have undergone extensive training and education in the field, and we hold certifications from recognized industry associations and organizations.
                     </p>
@@ -33,7 +33,7 @@ export default function About() {
             {/* Services Section */}
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between mb-12 bg-white py-6 md:py-8 px-4 md:px-6 rounded-lg shadow-lg">
                 <div className="md:w-1/2 text-gray-800 mb-8 md:mb-0 px-2">
-                    <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-center md:text-left">Our Services</h3>
+                    <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-center md:text-center">Our Services</h3>
                     <p className="text-base md:text-lg leading-relaxed mb-4 text-center md:text-left">
                         We offer a wide range of electrical services, including repairs, upgrades, and installations for both residential and commercial properties. We also specialize in energy-efficient solutions, ensuring that our services are both effective and environmentally friendly.
                     </p>
@@ -67,7 +67,7 @@ export default function About() {
                     />
                 </div>
                 <div className="md:w-1/2 text-gray-800 px-2 md:px-4">
-                    <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-center md:text-left">Our Approach</h3>
+                    <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-center md:text-center">Our Approach</h3>
                     <p className="text-base md:text-lg leading-relaxed mb-4 text-center md:text-left">
                         Our electricians take a customer-focused approach to our work, striving to deliver solutions that meet our clients&apos; electrical needs while staying within their budget. We provide upfront pricing and communicate clearly throughout the entire process.
                     </p>
