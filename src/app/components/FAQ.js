@@ -51,7 +51,7 @@ const FAQ = () => {
             onClick={() => toggleDropdown(2)}
             className="text-lg sm:text-xl font-semibold text-gray-800 cursor-pointer flex justify-between items-center"
           >
-            How long does it take to complete an electrical project?
+            How long does it take to complete an electrical project? 
             <span className={`transform ${openIndex === 2 ? 'rotate-180' : ''} transition-transform`}>
               ▼
             </span>
