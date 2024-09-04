@@ -6,7 +6,7 @@ import Review from './components/review/review';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import BackToTopButton from './components/backToTop';
-import Faq from './components/faq';
+import Faq from './components/Faq';
 import Hours from './components/hours';
 
 export default function Page() {
