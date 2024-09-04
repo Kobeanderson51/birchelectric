@@ -21,7 +21,7 @@ export default function Page() {
       <section id="about">
         <About />
       </section>
-      <section id="FAQ">
+      <section id="faq">
         <FAQ />
       </section>
       <section id="review">

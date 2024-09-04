@@ -23,7 +23,7 @@ export default function Nav() {
                     <a href="#review" className='text-gray-300 hover:text-white transition duration-300'>Reviews</a>
                     <a href="#about" className='text-gray-300 hover:text-white transition duration-300'>About</a>
                     <a href="#contact" className='text-gray-300 hover:text-white transition duration-300'>Contact</a>
-                    <a href="#FAQ" className='text-gray-300 hover:text-white transition duration-300'>FAQ</a>
+                    <a href="#faq" className='text-gray-300 hover:text-white transition duration-300'>FAQ</a>
                     <a href="#hours" className='text-gray-300 hover:text-white transition duration-300'>Hours</a>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export default function Nav() {
                 <a href="#review" className='block py-2 text-gray-300 hover:text-white transition duration-300'>Reviews</a>
                 <a href="#about" className='block py-2 text-gray-300 hover:text-white transition duration-300'>About</a>
                 <a href="#contact" className='block py-2 text-gray-300 hover:text-white transition duration-300'>Contact</a>
-                <a href="#FAQ" className='block py-2 text-gray-300 hover:text-white transition duration-300'>FAQ</a>
+                <a href="#faq" className='block py-2 text-gray-300 hover:text-white transition duration-300'>FAQ</a>
                 <a href="#hours" className='block py-2 text-gray-300 hover:text-white transition duration-300'>Hours</a>
             </div>
         </nav>
