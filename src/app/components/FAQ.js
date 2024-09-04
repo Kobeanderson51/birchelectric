@@ -1,12 +1,11 @@
 import { useState } from 'react';
 
-const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState(null);
-
-  const toggleDropdown = (index) => {
+export default function FAQ() {
+    const [openIndex, setOpenIndex] = useState(null);
+    const toggleDropdown = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-
+  
   return (
     <div className="max-w-full md:max-w-4xl mx-auto p-4 sm:p-6 bg-white shadow-lg rounded-lg mt-8">
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center text-gray-900 mb-6">Frequently Asked Questions</h1>
@@ -66,5 +65,3 @@ const FAQ = () => {
     </div>
   );
 };
-
-export default FAQ;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hours = () => {
+export default function Hours() {
     const businessHours = [
         { day: 'Monday', hours: '9:00 AM - 5:00 PM' },
         { day: 'Tuesday', hours: '9:00 AM - 5:00 PM' },
@@ -29,5 +29,3 @@ const Hours = () => {
         </div>
     );
 };
-
-export default Hours;
