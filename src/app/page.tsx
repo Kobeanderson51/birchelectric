@@ -6,7 +6,7 @@ import Review from './components/review/review';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import BackToTopButton from './components/backToTop';
-import FAQ from './components/faq';
+import Faq from './components/faq';
 import Hours from './components/hours';
 
 export default function Page() {
@@ -22,7 +22,7 @@ export default function Page() {
         <About />
       </section>
       <section id="faq">
-        <FAQ />
+        <Faq />
       </section>
       <section id="review">
         <Review />

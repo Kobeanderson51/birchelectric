@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function FAQ() {
+export default function Faq() {
     const [openIndex, setOpenIndex] = useState(null);
     const toggleDropdown = (index) => {
     setOpenIndex(openIndex === index ? null : index);
