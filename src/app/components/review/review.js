@@ -1,46 +1,45 @@
-import { useState } from 'react';
-import reviewImage from '../../../../public/images/reviewImage.jpg';
-import ReviewSection from './reviewSection'; // Adjust path as necessary
+'use client';
+
+import { useState, useEffect } from 'react';
+import { FaStar } from 'react-icons/fa';
+import ReviewSection from './reviewsection';
 
 export default function Review() {
-    const [reviews, setReviews] = useState([
+    const [mounted, setMounted] = useState(false);
+    const [reviews] = useState([
         {
-            name: "John Doe",
-            review: "Excellent service! The team was professional and the results were beyond expectations.",
-            date: "August 15, 2024"
+            name: "Matt P.",
+            review: "Darin and his guys are awesome! They came and replaced the power meter at my new house. I was expecting to be without power for about 24 hours. It ended up being about 7 with everything getting replaced and new wiring installed! Best service in the State as far as I'm concerned! Will definitely be using them again and would recommend them for any electrical work you need! Very respectful of my property and cleaned up as they went and before they left. Did I mention that they did all this in 24° weather and a wind chill that made it feel like 10°? Above and beyond!",
+            date: "A year ago",
+            rating: 5
         },
         {
-            name: "Jane Smith",
-            review: "Highly recommended! They were prompt, courteous, and did a fantastic job.",
-            date: "July 22, 2024"
-        }
-        // Initial reviews data
+            name: "S Lamb",
+            review: "Birch Electric answered my call on the first try, arrived at the location 20 minutes later and had the problem fixed within the hour!  Great service and very reasonable price.  Would definitely recommend!",
+            date: "6 years ago",
+            rating: 5
+        },
+        {
+            name: "Jay D.",
+            review: "Awesome guy to work with.",
+            date: "3 months ago",
+            rating: 5
+        },
     ]);
 
-    const handleAddReview = (newReview) => {
-        setReviews((prevReviews) => [newReview, ...prevReviews]);
-    };
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    if (!mounted) {
+        return null;
+    }
 
     return (
         <>
-            <div className="relative bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-                <div 
-                    className="absolute inset-0 z-0 bg-black bg-opacity-50"
-                ></div>
-                
-                {/* Overlay for Text */}
-                <div className="relative z-10 max-w-3xl mx-auto text-center bg-gray-900 bg-opacity-50 py-8 px-4 rounded-lg">
-                    <h2 className="text-3xl font-extrabold text-white mb-8">
-                        Don’t Just Take Our Word for It
-                    </h2>
-                    <p className="text-lg text-gray-300">
-                        Hear from our satisfied customers about their experiences with our services. We take pride in providing top-notch service and ensuring every client is happy with the results.
-                    </p>
-                </div>
-            </div>
 
             {/* Review Section */}
             <ReviewSection reviews={reviews} />
-            </>
+        </>
     );
 }
