@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { FaStar } from 'react-icons/fa';
-import ReviewSection from './reviewsection';
+import ReviewSection from './reviewSection.js';
 
 export default function Review() {
     const [mounted, setMounted] = useState(false);
@@ -35,11 +35,5 @@ export default function Review() {
         return null;
     }
 
-    return (
-        <>
-
-            {/* Review Section */}
-            <ReviewSection reviews={reviews} />
-        </>
-    );
+    return <ReviewSection reviews={reviews} />;
 }
